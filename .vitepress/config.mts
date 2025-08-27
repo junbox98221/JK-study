@@ -39,7 +39,10 @@ export default defineConfig({
       {
         text: "함수형 프로그래밍",
         items: [
-          { text: "학습 가이드", link: "/functional-programming/" },
+          {
+            text: "스터디 가이드",
+            link: "/functional-programming/",
+          },
           {
             text: "Part 1: 액션과 계산, 데이터",
             collapsed: false,
