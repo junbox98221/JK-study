@@ -2,12 +2,38 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   title: "JK-study",
-  description: "A VitePress Site",
+  description: "함수형 프로그래밍 학습 기록",
+  lang: "ko-KR",
   themeConfig: {
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "홈", link: "/" },
+      { text: "함수형 프로그래밍", link: "/functional-programming/" },
     ],
+
+    outline: {
+      label: "목차",
+    },
+
+    docFooter: {
+      prev: "이전",
+      next: "다음",
+    },
+
+    darkModeSwitchLabel: "다크 모드",
+    sidebarMenuLabel: "메뉴",
+    returnToTopLabel: "맨 위로",
+
+    editLink: {
+      pattern: "https://github.com/junbox98221/JK-study/edit/main/:path",
+      text: "Github에서 수정하기",
+    },
+
+    lastUpdated: {
+      text: "최종 업데이트",
+      formatOptions: {
+        dateStyle: "short",
+      },
+    },
 
     sidebar: [
       {
