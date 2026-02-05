@@ -130,7 +130,7 @@ export default defineConfig({
         text: "React",
         items: [
           {
-            text: "학습 가이드",
+            text: "스터디 가이드",
             link: "/react/",
           },
           {
