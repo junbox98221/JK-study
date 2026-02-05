@@ -8,6 +8,7 @@ export default defineConfig({
     nav: [
       { text: "홈", link: "/" },
       { text: "함수형 프로그래밍", link: "/functional-programming/" },
+      { text: "React", link: "/react/" },
     ],
 
     outline: {
@@ -36,6 +37,25 @@ export default defineConfig({
     },
 
     sidebar: [
+      {
+        text: "React",
+        items: [
+          {
+            text: "학습 가이드",
+            link: "/react/",
+          },
+          {
+            text: "Hooks",
+            collapsed: false,
+            items: [
+              {
+                text: "6. useState의 state는 어떤 코드로 쓰여있나?!",
+                link: "/react/part1/ch06",
+              },
+            ],
+          },
+        ],
+      },
       {
         text: "함수형 프로그래밍",
         items: [

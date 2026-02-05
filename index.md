@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: 함수형 프로그래밍
       link: /functional-programming/
+    - theme: brand
+      text: React
+      link: /react/
     - theme: alt
       text: GitHub
       link: https://github.com/junbox98221/JK-study
