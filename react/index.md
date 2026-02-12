@@ -19,6 +19,8 @@ React 내부 동작 원리를 분석하고 핵심 개념을 정리합니다.
 
 - [6. useState의 state는 어떤 코드로 쓰여있나?!](/react/part1/ch06) 
 - [7. 훅 업데이트와 dispatchAction](/react/part1/ch07)
+- [8. idle과 render 페이즈](/react/part1/ch08)
+- [9. 렌더 페이즈의 업데이트](/react/part1/ch09)
 
 ## 참고자료
 

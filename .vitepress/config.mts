@@ -145,6 +145,14 @@ export default defineConfig({
                 text: "7. 훅 업데이트와 dispatchAction",
                 link: "/react/part1/ch07",
               },
+              {
+                text: "8. idle과 render 페이즈",
+                link: "/react/part1/ch08",
+              },
+              {
+                text: "9. 렌더 페이즈의 업데이트",
+                link: "/react/part1/ch09",
+              },
             ],
           },
         ],
