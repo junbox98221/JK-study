@@ -22,6 +22,10 @@ React 내부 동작 원리를 분석하고 핵심 개념을 정리합니다.
 - [8. idle과 render 페이즈](/react/part1/ch08)
 - [9. 렌더 페이즈의 업데이트](/react/part1/ch09)
 
+### Scheduler
+
+- [10. 훅 상태 업데이트 요약 및 스케줄러 개관](/react/part2/ch10)
+
 ## 참고자료
 
 - [가장 쉬운 AI 활용 개발 with Boaz](https://www.youtube.com/watch?v=7mU7ARgrpfI&list=PLpq56DBY9U2B6gAZIbiIami_cLBhpHYCA&index=7)

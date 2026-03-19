@@ -155,6 +155,16 @@ export default defineConfig({
               },
             ],
           },
+          {
+            text: "Scheduler",
+            collapsed: false,
+            items: [
+              {
+                text: "10. 훅 상태 업데이트 요약 및 스케줄러 개관",
+                link: "/react/part2/ch10",
+              },
+            ],
+          },
         ],
       },
     ],
