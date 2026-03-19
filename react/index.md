@@ -25,6 +25,7 @@ React 내부 동작 원리를 분석하고 핵심 개념을 정리합니다.
 ### Scheduler
 
 - [10. 훅 상태 업데이트 요약 및 스케줄러 개관](/react/part2/ch10)
+- [11. Reconciler의 스케줄링 사전 작업](/react/part2/ch11)
 
 ## 참고자료
 

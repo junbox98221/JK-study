@@ -163,6 +163,10 @@ export default defineConfig({
                 text: "10. 훅 상태 업데이트 요약 및 스케줄러 개관",
                 link: "/react/part2/ch10",
               },
+              {
+                text: "11. Reconciler의 스케줄링 사전 작업",
+                link: "/react/part2/ch11",
+              },
             ],
           },
         ],
