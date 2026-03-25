@@ -12,12 +12,11 @@ React 내부 동작 원리를 분석하고 핵심 개념을 정리합니다.
 
 ## 학습 목표
 
-
 ## 목차
 
 ### Hooks
 
-- [6. useState의 state는 어떤 코드로 쓰여있나?!](/react/part1/ch06) 
+- [6. useState의 state는 어떤 코드로 쓰여있나?!](/react/part1/ch06)
 - [7. 훅 업데이트와 dispatchAction](/react/part1/ch07)
 - [8. idle과 render 페이즈](/react/part1/ch08)
 - [9. 렌더 페이즈의 업데이트](/react/part1/ch09)
@@ -26,6 +25,8 @@ React 내부 동작 원리를 분석하고 핵심 개념을 정리합니다.
 
 - [10. 훅 상태 업데이트 요약 및 스케줄러 개관](/react/part2/ch10)
 - [11. Reconciler의 스케줄링 사전 작업](/react/part2/ch11)
+- [12. Lanes와 이벤트 우선순위](/react/part1/ch12)
+- [13. scheduleUpdateOnFiber와 동기/비동기 작업 처리](/react/part1/ch13)
 
 ## 참고자료
 

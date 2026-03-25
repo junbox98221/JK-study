@@ -167,12 +167,19 @@ export default defineConfig({
                 text: "11. Reconciler의 스케줄링 사전 작업",
                 link: "/react/part2/ch11",
               },
+              {
+                text: "12. Lanes와 이벤트 우선순위",
+                link: "/react/part1/ch12",
+              },
+              {
+                text: "13. scheduleUpdateOnFiber와 동기/비동기 작업 처리",
+                link: "/react/part1/ch13",
+              },
             ],
           },
         ],
       },
     ],
-    
 
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
