@@ -28,6 +28,7 @@ React 내부 동작 원리를 분석하고 핵심 개념을 정리합니다.
 - [12. Lanes와 이벤트 우선순위](/react/part2/ch12)
 - [13. scheduleUpdateOnFiber와 동기/비동기 작업 처리](/react/part2/ch13)
 - [14. ensureRootIsScheduled와 루트 스케줄 관리](/react/part2/ch14)
+- [15. Concurrent Work와 Sync Work의 스케줄링 차이](/react/part2/ch15)
 
 ## 참고자료
 

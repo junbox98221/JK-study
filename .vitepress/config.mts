@@ -198,6 +198,10 @@ export default defineConfig({
                 text: "14. ensureRootIsScheduled와 루트 스케줄 관리",
                 link: "/react/part2/ch14",
               },
+              {
+                text: "15. Concurrent Work와 Sync Work의 스케줄링 차이",
+                link: "/react/part2/ch15",
+              },
             ],
           },
         ],
