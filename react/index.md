@@ -3,7 +3,7 @@ title: React 학습 기록
 description: React 내부 동작 원리와 핵심 개념 분석
 author: JK
 editLink: true
-lastUpdated: 2026-02-05
+lastUpdated: 2026-04-09
 ---
 
 # React 학습 기록
@@ -25,8 +25,9 @@ React 내부 동작 원리를 분석하고 핵심 개념을 정리합니다.
 
 - [10. 훅 상태 업데이트 요약 및 스케줄러 개관](/react/part2/ch10)
 - [11. Reconciler의 스케줄링 사전 작업](/react/part2/ch11)
-- [12. Lanes와 이벤트 우선순위](/react/part1/ch12)
-- [13. scheduleUpdateOnFiber와 동기/비동기 작업 처리](/react/part1/ch13)
+- [12. Lanes와 이벤트 우선순위](/react/part2/ch12)
+- [13. scheduleUpdateOnFiber와 동기/비동기 작업 처리](/react/part2/ch13)
+- [14. ensureRootIsScheduled와 루트 스케줄 관리](/react/part2/ch14)
 
 ## 참고자료
 
