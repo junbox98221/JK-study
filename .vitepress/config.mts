@@ -4,6 +4,25 @@ export default defineConfig({
   title: "JK-study",
   description: "함수형 프로그래밍 학습 기록",
   lang: "ko-KR",
+  markdown: {
+    config(md) {
+      const defaultFence = md.renderer.rules.fence;
+
+      md.renderer.rules.fence = (tokens, idx, options, env, self) => {
+        const token = tokens[idx];
+        const language = token.info.trim().split(/\s+/u)[0];
+
+        if (language === "mermaid") {
+          const encoded = encodeURIComponent(token.content);
+          return `<MermaidBlock code="${encoded}"></MermaidBlock>`;
+        }
+
+        return defaultFence
+          ? defaultFence(tokens, idx, options, env, self)
+          : self.renderToken(tokens, idx, options);
+      };
+    },
+  },
   themeConfig: {
     nav: [
       { text: "홈", link: "/" },
@@ -169,11 +188,15 @@ export default defineConfig({
               },
               {
                 text: "12. Lanes와 이벤트 우선순위",
-                link: "/react/part1/ch12",
+                link: "/react/part2/ch12",
               },
               {
                 text: "13. scheduleUpdateOnFiber와 동기/비동기 작업 처리",
-                link: "/react/part1/ch13",
+                link: "/react/part2/ch13",
+              },
+              {
+                text: "14. ensureRootIsScheduled와 루트 스케줄 관리",
+                link: "/react/part2/ch14",
               },
             ],
           },
