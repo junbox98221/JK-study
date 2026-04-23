@@ -202,6 +202,22 @@ export default defineConfig({
                 text: "15. Concurrent Work와 Sync Work의 스케줄링 차이",
                 link: "/react/part2/ch15",
               },
+              {
+                text: "16. Scheduler의 Task 객체",
+                link: "/react/part2/ch16",
+              },
+              {
+                text: "17. Scheduler의 Task Queue와 Timer Queue",
+                link: "/react/part2/ch17",
+              },
+              {
+                text: "18. Scheduler와 메인 스레드 양보",
+                link: "/react/part2/ch18",
+              },
+              {
+                text: "19. shouldYield와 양보 타이밍",
+                link: "/react/part2/ch19",
+              },
             ],
           },
         ],

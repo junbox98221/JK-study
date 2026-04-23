@@ -3,7 +3,7 @@ title: React 학습 기록
 description: React 내부 동작 원리와 핵심 개념 분석
 author: JK
 editLink: true
-lastUpdated: 2026-04-09
+lastUpdated: 2026-04-23
 ---
 
 # React 학습 기록
@@ -29,8 +29,11 @@ React 내부 동작 원리를 분석하고 핵심 개념을 정리합니다.
 - [13. scheduleUpdateOnFiber와 동기/비동기 작업 처리](/react/part2/ch13)
 - [14. ensureRootIsScheduled와 루트 스케줄 관리](/react/part2/ch14)
 - [15. Concurrent Work와 Sync Work의 스케줄링 차이](/react/part2/ch15)
+- [16. Scheduler의 Task 객체](/react/part2/ch16)
+- [17. Scheduler의 Task Queue와 Timer Queue](/react/part2/ch17)
+- [18. Scheduler와 메인 스레드 양보](/react/part2/ch18)
+- [19. shouldYield와 양보 타이밍](/react/part2/ch19)
 
 ## 참고자료
 
 - [가장 쉬운 AI 활용 개발 with Boaz](https://www.youtube.com/watch?v=7mU7ARgrpfI&list=PLpq56DBY9U2B6gAZIbiIami_cLBhpHYCA&index=7)
-- [Deep Dive Magic Code](https://goidle.github.io/react/in-depth-react-hooks_1/)
